@@ -34,7 +34,7 @@ export function ContactSection() {
 
   const contactInfo = [
     { icon: Mail, label: "E-poçt", value: "sultan.huseynov20@gmail.com" },
-    { icon: MapPin, label: "Məkan", value: "Bakı, Azərbaycan" },
+    { icon: MapPin, label: "Məkan", value: "Azərbaycan, Ağdam ray." },
     { icon: Phone, label: "Telefon", value: "+994 (50) 329-19-55" },
   ];
 
