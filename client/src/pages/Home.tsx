@@ -4,7 +4,7 @@ import { ModernAbout } from "@/components/ModernAbout";
 import { SkillsSection } from "@/components/SkillsSection";
 import { FeaturedProjects } from "@/components/FeaturedProjects";
 import { OrganizationsSection } from "@/components/OrganizationsSection";
-import { TimelineSection } from "@/components/TimelineSection";
+//import { TimelineSection } from "@/components/TimelineSection";
 import { ContactSection } from "@/components/ContactSection";
 import { ModernFooter } from "@/components/ModernFooter";
 
@@ -177,7 +177,6 @@ export default function Home() {
 
         <OrganizationsSection organizations={staticOrganizations} />
 
-        <TimelineSection />
 
         <ContactSection />
 
