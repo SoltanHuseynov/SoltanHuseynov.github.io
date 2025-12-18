@@ -72,7 +72,7 @@ export function ModernAbout({ bio, skills }: ModernAboutProps) {
                 {[
                   { label: "Təcrübə İli", value: "5+" },
                   { label: "Tamamlanmış Layihələr", value: "50+" },
-                  { label: "Məmnun Müştərilər", value: "10+" },
+                  { label: "Məmnun Müştərilər", value: "5+" },
                 ].map((stat, index) => (
                   <div key={stat.label} className="text-center p-4 rounded-xl bg-muted/50">
                     <div className="text-3xl font-bold text-primary">{stat.value}</div>

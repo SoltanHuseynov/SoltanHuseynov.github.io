@@ -26,8 +26,9 @@ export function ModernHero({
     document.getElementById("featured")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  //Cv section
   const downloadCV = () => {
-    const cvPath = "/cv/CV.pdf";
+    const cvPath = "/cv/Cv.pdf";
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = "SoltanHuseynov-CV.pdf";
